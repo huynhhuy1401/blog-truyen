@@ -6,10 +6,7 @@ module.exports = {
       summary: `Học IT nhưng thích viết nhảm viết xàm về đủ mọi thứ trên đời.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    siteUrl: `https://huyxl.netlify.app//`,
   },
   plugins: [
     {
