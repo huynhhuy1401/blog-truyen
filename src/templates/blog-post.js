@@ -12,7 +12,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const { previous, next, slug } = pageContext
   const disqusConfig = {
-    shortname: "hduongsblog",
+    shortname: process.env.GATSBY_DISQUS_NAME,
     config: { identifier: slug, title: siteTitle },
   }
 
