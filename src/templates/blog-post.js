@@ -16,7 +16,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     config: { identifier: slug, title: siteTitle },
   }
 
-  console.log(process.env)
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
