@@ -4,10 +4,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Viết truyện nhảm, tản mạn...`,
+    title: `Tác giả blog này khá trẻ trâu, cân nhắc trước khi đọc các bài viết :))`,
     author: {
       name: `Huy Dương`,
-      summary: `Học IT nhưng thích viết nhảm viết xàm về đủ mọi thứ trên đời.`,
+      summary: `Học IT nhưng thích viết nhảm, viết xàm về đủ mọi thứ trên đời.`,
     },
     description: `Trang để viết về những chuyện tầm xàm, lảm nhảm của Huy`,
     siteUrl: `https://huyxl.netlify.app//`,
